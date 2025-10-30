@@ -62,7 +62,7 @@ I’m always open to discussions and collaborations — feel free to reach out i
 - *2024.04–2025.06*, [Shanghai AI Lab](https://www.shlab.org.cn/), Shanghai, China
 
 
-## 🏅 <a id="honors"></a>Honors and Awards
+## 🏅 <a id="honors_and_awards"></a>Honors and Awards
 
 - National Scholarship, 2023
 - Outstanding Undergraduate Thesis Award, 2025
