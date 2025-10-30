@@ -10,7 +10,7 @@ redirect_from:
 
 # 👋 <a id="aboutme"></a>About Me
 
-I’m a first-year Ph.D. student in Computer Science at the [School of Artificial Intelligence, Shanghai Jiao Tong University (SJTU)](https://soai.sjtu.edu.cn/), advised by Prof. [Zhouhan Lin](https://hantek.github.io/) in the [Language Understanding and Machine Intelligence Algorithms (LUMIA) Group](https://lumia-group.github.io/). Previously, I received my B.E. in Information Security from [Wuhan University](https://www.whu.edu.cn/).
+I’m a first-year Ph.D student in Computer Science at the [School of Artificial Intelligence, Shanghai Jiao Tong University (SJTU)](https://soai.sjtu.edu.cn/), advised by Prof. [Zhouhan Lin](https://hantek.github.io/) in the [Language Understanding and Machine Intelligence Algorithms (LUMIA) Group](https://lumia-group.github.io/). Previously, I received my B.E. in Information Security from [Wuhan University](https://www.whu.edu.cn/).
 
 
 My research interests lie in machine learning and large language models (LLMs), particularly in:
