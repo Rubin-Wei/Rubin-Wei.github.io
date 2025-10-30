@@ -10,38 +10,34 @@ redirect_from:
 
 # 👋 About Me
 
-I’m a **first-year Ph.D. student** in **Computer Science** at the **School of Artificial Intelligence, Shanghai Jiao Tong University (SJTU)**, advised by **Prof. Zhouhan Lin**.  
-Previously, I received my **B.E. in Information Security** from **Wuhan University**.
+I’m a first-year Ph.D. student in Computer Science at the [School of Artificial Intelligence, Shanghai Jiao Tong University (SJTU)](https://soai.sjtu.edu.cn/), advised by Prof. [Zhouhan Lin](https://hantek.github.io/). Previously, I received my B.E. in Information Security from [Wuhan University](https://www.whu.edu.cn/).
 
-My research interests lie in **machine learning** and **large language models (LLMs)**, particularly in:
-- 🧠 **Memory-augmented LLMs** — training long-term memory to retain the entire training dataset  
-- 🔍 **Parametric retrieval architectures** for efficient and adaptive knowledge access  
-- 🧩 **Decoupling common and factual knowledge** within LLMs  
+My research interests lie in machine learning and large language models (LLMs), particularly in:
+- Memory-augmented LLMs — training long-term memory to retain the entire training dataset  
+- Parametric retrieval architectures for efficient and adaptive knowledge access  
+- Decoupling common and factual knowledge within LLMs  
 
 I’m always open to discussions and collaborations — feel free to reach out if you’d like to chat!
 
----
+## 🔥 <a id="news"></a>News
 
-## 📰 <a id="news"></a>News
+- **2025.09** 🎉🎉 *MemoryDecoder* accepted to **NeurIPS 2025**  
+- **2025.06** 🏆🏆 My undergraduate thesis was selected as an *Outstanding Thesis*  
+- **2024.12** 🎉🎉 One paper accepted to **IEEE TIFS 2024**  
+- **2024.06** 🎉🎉 *Beowulf* accepted to **ACM CCS 2024**
 
-- **2025.09** 🎉 *MemoryDecoder* accepted to **NeurIPS 2025**  
-- **2025.06** 🎓 My undergraduate thesis was selected as an *Outstanding Thesis*  
-- **2024.12** 📄 One paper accepted to **IEEE TIFS 2024**  
-- **2024.06** 💡 *Beowulf* accepted to **ACM CCS 2024**
-
----
 
 ## 📚 <a id="publications"></a>Publications
 
 1. **MLP Memory: A Retriever-Pretrained Memory for Large Language Models**  
-   *Rubin Wei, Jiaqi Cao, Jiarui Wang, Jushi Kai, Qipeng Guo, Bowen Zhou, Zhouhan Lin*  
+   ***Rubin Wei**\*, Jiaqi Cao\*, Jiarui Wang, Jushi Kai, Qipeng Guo, Bowen Zhou, Zhouhan Lin*  
    _Preprint (2025)_  
-   🔗 [arXiv](https://arxiv.org/abs/2508.01832) · [GitHub](https://github.com/Rubin-Wei/MLPMemory) · [HuggingFace](https://huggingface.co/collections/Rubin-Wei/mlpmemory)
+   🔗 [arXiv](https://arxiv.org/abs/2508.01832) · [GitHub](https://github.com/Rubin-Wei/MLPMemory) · [HuggingFace](https://huggingface.co/collections/Rubin-Wei/mlpmemory) · \* Equal Contribution
 
 2. **Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models**  
-   *Jiaqi Cao, Jiarui Wang, Rubin Wei, Qipeng Guo, Kai Chen, Bowen Zhou, Zhouhan Lin*  
+   *Jiaqi Cao\*, Jiarui Wang\*, **Rubin Wei**, Qipeng Guo, Kai Chen, Bowen Zhou, Zhouhan Lin*  
    _NeurIPS 2025 Poster_  
-   🔗 [arXiv](https://arxiv.org/abs/2508.09874) · [GitHub](https://github.com/LUMIA-Group/MemoryDecoder) · [HuggingFace](https://huggingface.co/collections/Clover-Hill/memorydecoder)
+   🔗 [arXiv](https://arxiv.org/abs/2508.09874) · [GitHub](https://github.com/LUMIA-Group/MemoryDecoder) · [HuggingFace](https://huggingface.co/collections/Clover-Hill/memorydecoder) · \* Equal Contribution
 
 3. **Beowulf: Mitigating Model Extraction Attacks via Reshaping Decision Regions**  
    *Xueluan Gong, Rubin Wei, Ziyao Wang, Yuchen Sun, Jiawen Peng, Yanjiao Chen, Qian Wang*  
@@ -53,30 +49,23 @@ I’m always open to discussions and collaborations — feel free to reach out i
    _IEEE Transactions on Information Forensics & Security (TIFS) 2024_  
    🔗 [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10793405)
 
----
-
 ## 🎓 <a id="education"></a>Education
 
-- **Ph.D. Student**, School of Artificial Intelligence, Shanghai Jiao Tong University — *2025.09–Present*  
-- **B.E. in Information Security**, School of Cyber Science and Engineering, Wuhan University — *2021.09–2025.06*
+- *2025.09–Present*, Ph.D. Student, [School of Artificial Intelligence](https://soai.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/)
+- *2021.09–2025.06*, B.E. in Information Security,[ School of Cyber Science and Engineering](https://cse.whu.edu.cn/), [Wuhan University](https://www.whu.edu.cn/)
 
----
 
 ## 💼 <a id="internships"></a>Internships
 
-- **TeleAI**, Shanghai, China — *2024.11–2025.02*  
-- **Shanghai AI Lab**, Shanghai, China — *2024.04–2025.06*
+- *2024.11–2025.02*, [TeleAI](https://www.teleai.com.cn/), Shanghai, China
+- *2024.04–2025.06*, [Shanghai AI Lab](https://www.shlab.org.cn/), Shanghai, China
 
----
 
 ## 🏅 Honors and Awards
 
-- 🏆 **National Scholarship**  
-- 🧾 **Outstanding Undergraduate Thesis Award**
+- National Scholarship, 2023
+- Outstanding Undergraduate Thesis Award, 2025
 
----
-
-✨ *“Research is not only about building smarter models, but also about understanding how intelligence itself can remember.”*
 
 
 
