@@ -65,12 +65,12 @@ $right-sidebar-width-wide   : auto;
 
 $susy: (
     columns: 12,
-    column-width: 120px,
+    column-width: 150px,
     gutters: 1/4,
     math: fluid,
     output: float,
     gutter-position: after,
-    container: $x-large,
+    container: $large,
     global-box-sizing: border-box,
 );
 
