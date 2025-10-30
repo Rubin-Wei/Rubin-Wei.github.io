@@ -10,7 +10,8 @@ redirect_from:
 
 # 👋 About Me
 
-I’m a first-year Ph.D. student in Computer Science at the [School of Artificial Intelligence, Shanghai Jiao Tong University (SJTU)](https://soai.sjtu.edu.cn/), advised by Prof. [Zhouhan Lin](https://hantek.github.io/). Previously, I received my B.E. in Information Security from [Wuhan University](https://www.whu.edu.cn/).
+I’m a first-year Ph.D. student in Computer Science at the [School of Artificial Intelligence, Shanghai Jiao Tong University (SJTU)](https://soai.sjtu.edu.cn/), advised by Prof. [Zhouhan Lin](https://hantek.github.io/) in the [Language Understanding and Machine Intelligence Algorithms (LUMIA) Group](https://lumia-group.github.io/). Previously, I received my B.E. in Information Security from [Wuhan University](https://www.whu.edu.cn/).
+
 
 My research interests lie in machine learning and large language models (LLMs), particularly in:
 - Memory-augmented LLMs — training long-term memory to retain the entire training dataset  
@@ -20,8 +21,8 @@ My research interests lie in machine learning and large language models (LLMs), 
 I’m always open to discussions and collaborations — feel free to reach out if you’d like to chat!
 
 ## 🔥 <a id="news"></a>News
-
-- **2025.09** 🎉🎉 *MemoryDecoder* accepted to **NeurIPS 2025**  
+- **2025.10** 🚀🚀 *MLP Memory* released — model weights and code are now open-sourced.
+- **2025.09** 🎉🎉 *Memory Decoder* accepted to **NeurIPS 2025**  
 - **2025.06** 🏆🏆 My undergraduate thesis was selected as an *Outstanding Thesis*  
 - **2024.12** 🎉🎉 One paper accepted to **IEEE TIFS 2024**  
 - **2024.06** 🎉🎉 *Beowulf* accepted to **ACM CCS 2024**
@@ -29,25 +30,25 @@ I’m always open to discussions and collaborations — feel free to reach out i
 
 ## 📚 <a id="publications"></a>Publications
 
-1. **MLP Memory: A Retriever-Pretrained Memory for Large Language Models**  
+-  **MLP Memory: A Retriever-Pretrained Memory for Large Language Models**  
    ***Rubin Wei**\*, Jiaqi Cao\*, Jiarui Wang, Jushi Kai, Qipeng Guo, Bowen Zhou, Zhouhan Lin*  
    _Preprint (2025)_  
    🔗 [arXiv](https://arxiv.org/abs/2508.01832) · [GitHub](https://github.com/Rubin-Wei/MLPMemory) · [HuggingFace](https://huggingface.co/collections/Rubin-Wei/mlpmemory) · \* Equal Contribution
 
-2. **Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models**  
+-  **Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models**  
    *Jiaqi Cao\*, Jiarui Wang\*, **Rubin Wei**, Qipeng Guo, Kai Chen, Bowen Zhou, Zhouhan Lin*  
    _NeurIPS 2025 Poster_  
    🔗 [arXiv](https://arxiv.org/abs/2508.09874) · [GitHub](https://github.com/LUMIA-Group/MemoryDecoder) · [HuggingFace](https://huggingface.co/collections/Clover-Hill/memorydecoder) · \* Equal Contribution
 
-3. **Beowulf: Mitigating Model Extraction Attacks via Reshaping Decision Regions**  
-   *Xueluan Gong, Rubin Wei, Ziyao Wang, Yuchen Sun, Jiawen Peng, Yanjiao Chen, Qian Wang*  
+-  **Beowulf: Mitigating Model Extraction Attacks via Reshaping Decision Regions**  
+   *Xueluan Gong, **Rubin Wei**, Ziyao Wang, Yuchen Sun, Jiawen Peng, Yanjiao Chen, Qian Wang*  
    _ACM CCS 2024_  
-   🔗 [ACM DL](https://dl.acm.org/doi/abs/10.1145/3658644.3670267)
+   🔗 [ACM CCS](https://dl.acm.org/doi/abs/10.1145/3658644.3670267)
 
-4. **Augmenting Model Extraction Attacks Against Disruption-Based Defenses**  
-   *Xueluan Gong, Shuaike Li, Yanjiao Chen, Mingzhe Li, Rubin Wei, Qian Wang, Kwok-Yan Lam*  
+- **Augmenting Model Extraction Attacks Against Disruption-Based Defenses**  
+   *Xueluan Gong, Shuaike Li, Yanjiao Chen, Mingzhe Li, **Rubin Wei**, Qian Wang, Kwok-Yan Lam*  
    _IEEE Transactions on Information Forensics & Security (TIFS) 2024_  
-   🔗 [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10793405)
+   🔗 [IEEE TIFS](https://ieeexplore.ieee.org/abstract/document/10793405)
 
 ## 🎓 <a id="education"></a>Education
 
@@ -61,11 +62,10 @@ I’m always open to discussions and collaborations — feel free to reach out i
 - *2024.04–2025.06*, [Shanghai AI Lab](https://www.shlab.org.cn/), Shanghai, China
 
 
-## 🏅 Honors and Awards
+## 🏅 <a id="honors"></a>Honors and Awards
 
 - National Scholarship, 2023
 - Outstanding Undergraduate Thesis Award, 2025
-
 
 
 
