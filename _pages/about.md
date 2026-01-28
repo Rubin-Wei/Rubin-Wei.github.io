@@ -13,14 +13,15 @@ redirect_from:
 I’m a first-year Ph.D student in Computer Science at the [School of Artificial Intelligence, Shanghai Jiao Tong University (SJTU)](https://soai.sjtu.edu.cn/), advised by Prof. [Zhouhan Lin](https://hantek.github.io/) in the [Language Understanding and Machine Intelligence Algorithms (LUMIA) Group](https://lumia-group.github.io/). Previously, I received my B.E. in Information Security from [Wuhan University](https://www.whu.edu.cn/).
 
 
-My research interests lie in machine learning and large language models (LLMs), particularly in:
-- Memory-augmented LLMs — training long-term memory to retain the entire training dataset  
-- Parametric retrieval architectures for efficient and adaptive knowledge access  
+My research centers on Memory for Large Language Models and Agents, particularly in:
+- Long-term Memory: Training a memory module to retain the entire training dataset.
+- Memory-augmented Architectures: Designing novel model architectures and pre-training paradigms for efficient and adaptive knowledge access.
 - Decoupling common and factual knowledge within LLMs  
 
 I’m always open to discussions and collaborations — feel free to reach out if you’d like to chat!
 
 ## 🔥 <a id="news"></a>News
+- **2026.01** 🎉🎉 *MLP Memory* accepted to **ICLR 2026**  
 - **2025.10** 🚀🚀 *MLP Memory* released — model weights and code are now open-sourced.
 - **2025.09** 🎉🎉 *Memory Decoder* accepted to **NeurIPS 2025**  
 - **2025.06** 🏆🏆 My undergraduate thesis was selected as an *Outstanding Thesis*  
@@ -32,7 +33,7 @@ I’m always open to discussions and collaborations — feel free to reach out i
 
 -  **MLP Memory: A Retriever-Pretrained Memory for Large Language Models**  
    ***Rubin Wei**\*, Jiaqi Cao\*, Jiarui Wang, Jushi Kai, Qipeng Guo, Bowen Zhou, Zhouhan Lin*  
-   _Preprint (2025)_  
+   _ICLR 2026_  
    🔗 [arXiv](https://arxiv.org/abs/2508.01832) · [GitHub](https://github.com/Rubin-Wei/MLPMemory) · [HuggingFace](https://huggingface.co/collections/Rubin-Wei/mlpmemory) · \* Equal Contribution
 
 -  **Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models**  
