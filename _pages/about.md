@@ -34,7 +34,7 @@ I’m always open to discussions and collaborations — feel free to reach out i
 -  **MLP Memory: A Retriever-Pretrained Memory for Large Language Models**  
    ***Rubin Wei**\*, Jiaqi Cao\*, Jiarui Wang, Jushi Kai, Qipeng Guo, Bowen Zhou, Zhouhan Lin*  
    _ICLR 2026_  
-   🔗 [arXiv](https://arxiv.org/abs/2508.01832) · [GitHub](https://github.com/Rubin-Wei/MLPMemory) · [HuggingFace](https://huggingface.co/collections/Rubin-Wei/mlpmemory) · \* Equal Contribution
+   🔗 [arXiv](https://arxiv.org/abs/2508.01832) · [GitHub](https://github.com/LUMIA-Group/MLPMemory) · [HuggingFace](https://huggingface.co/collections/Rubin-Wei/mlpmemory) · \* Equal Contribution
 
 -  **Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models**  
    *Jiaqi Cao\*, Jiarui Wang\*, **Rubin Wei**, Qipeng Guo, Kai Chen, Bowen Zhou, Zhouhan Lin*  
