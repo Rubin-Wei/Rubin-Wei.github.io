@@ -13,14 +13,17 @@ redirect_from:
 I’m a first-year Ph.D student in Computer Science at the [School of Artificial Intelligence, Shanghai Jiao Tong University (SJTU)](https://soai.sjtu.edu.cn/), advised by Prof. [Zhouhan Lin](https://hantek.github.io/) in the [Language Understanding and Machine Intelligence Algorithms (LUMIA) Group](https://lumia-group.github.io/). Previously, I received my B.E. in Information Security from [Wuhan University](https://www.whu.edu.cn/).
 
 
-My research centers on Memory for Large Language Models and Agents, particularly in:
-- Long-term Memory: Training a memory module to retain the entire training dataset.
-- Memory-augmented Architectures: Designing novel model architectures and pre-training paradigms for efficient and adaptive knowledge access.
-- Decoupling common and factual knowledge within LLMs  
+My research centers on memory, pretraining, and novel architectures for large language models and agents, with a focus on:
+- **Long-Term Memory:** Training memory modules to internalize and retain knowledge from large-scale training corpora.
+- **Memory-Augmented Architectures:** Designing memory-augmented models and pretraining paradigms for efficient and adaptive knowledge access.
+- **Pretraining and Model Architectures:** Developing scalable pretraining methods and new model architectures for more capable and efficient language models.
 
 I’m always open to discussions and collaborations — feel free to reach out if you’d like to chat!
 
 ## 🔥 <a id="news"></a>News
+- **2026.07** 🚀🚀 *Memory Decoder at Scale* released.
+- **2026.07** 🚀🚀 *MemSFT* released.
+- **2026.04** 💼 Started a research internship at **Shanghai AI Lab**.
 - **2026.01** 🎉🎉 *MLP Memory* accepted to **ICLR 2026**  
 - **2025.10** 🚀🚀 *MLP Memory* released — model weights and code are now open-sourced.
 - **2025.09** 🎉🎉 *Memory Decoder* accepted to **NeurIPS 2025**  
@@ -30,6 +33,16 @@ I’m always open to discussions and collaborations — feel free to reach out i
 
 
 ## 📚 <a id="publications"></a>Publications
+
+-  **Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory**<br>
+   ***Rubin Wei**, Jiaqi Cao, Jiarui Wang, Junming Zhang, Qipeng Guo, Bowen Zhou, Zhouhan Lin*<br>
+   _arXiv preprint, 2026_<br>
+   🔗 [Project Page](https://rubin-wei.github.io/memory-decoder-at-scale/)
+
+-  **MemSFT: Mitigating Alignment Tax with an External Parametric Memory**<br>
+   *Jiarui Wang\*, Xiang Shi\*, Jiaqi Cao, **Rubin Wei**, Xiquan Wang, Hao Sun, Jingzhi Wang, Zhiqi Yang, Qipeng Guo, Bowen Zhou, Zhouhan Lin*<br>
+   _arXiv preprint, 2026_<br>
+   🔗 [arXiv](https://arxiv.org/abs/2607.25614) · \* Equal Contribution
 
 -  **MLP Memory: A Retriever-Pretrained Memory for Large Language Models**  
    ***Rubin Wei**\*, Jiaqi Cao\*, Jiarui Wang, Jushi Kai, Qipeng Guo, Bowen Zhou, Zhouhan Lin*  
@@ -59,6 +72,7 @@ I’m always open to discussions and collaborations — feel free to reach out i
 
 ## 💼 <a id="internships"></a>Internships
 
+- *2026.04–Present*, Research Intern, [Shanghai AI Lab](https://www.shlab.org.cn/), Shanghai, China
 - *2024.11–2025.02*, [TeleAI](https://www.teleai.com.cn/), Shanghai, China
 - *2024.04–2024.06*, [Shanghai AI Lab](https://www.shlab.org.cn/), Shanghai, China
 
