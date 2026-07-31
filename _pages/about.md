@@ -37,12 +37,12 @@ I’m always open to discussions and collaborations — feel free to reach out i
 -  **Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory**<br>
    ***Rubin Wei**, Jiaqi Cao, Jiarui Wang, Junming Zhang, Qipeng Guo, Bowen Zhou, Zhouhan Lin*<br>
    _arXiv preprint, 2026_<br>
-   🔗 [Project Page](https://rubin-wei.github.io/memory-decoder-at-scale/)
+   🔗 [arXiv](https://arxiv.org/abs/2607.27919) · [GitHub](https://github.com/LUMIA-Group/MemoryDecoder-at-Scale) · [HuggingFace](https://huggingface.co/collections/Rubin-Wei/memorydecoder-at-scale) · [Project Page](https://rubin-wei.github.io/memory-decoder-at-scale/)
 
 -  **MemSFT: Mitigating Alignment Tax with an External Parametric Memory**<br>
    *Jiarui Wang\*, Xiang Shi\*, Jiaqi Cao, **Rubin Wei**, Xiquan Wang, Hao Sun, Jingzhi Wang, Zhiqi Yang, Qipeng Guo, Bowen Zhou, Zhouhan Lin*<br>
    _arXiv preprint, 2026_<br>
-   🔗 [arXiv](https://arxiv.org/abs/2607.25614) · \* Equal Contribution
+   🔗 [arXiv](https://arxiv.org/abs/2607.25614) · [GitHub](https://github.com/LUMIA-Group/MemSFT) · [HuggingFace](https://huggingface.co/collections/Jiarui-Wang/memsft) · \* Equal Contribution
 
 -  **MLP Memory: A Retriever-Pretrained Memory for Large Language Models**  
    ***Rubin Wei**\*, Jiaqi Cao\*, Jiarui Wang, Jushi Kai, Qipeng Guo, Bowen Zhou, Zhouhan Lin*  
