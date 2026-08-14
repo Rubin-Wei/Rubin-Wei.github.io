@@ -1891,10 +1891,24 @@ html[data-theme="dark"] .honors-strip {
 }
 
 .rubin-news > .rubin-section__header,
-.rubin-news > .news-list--selected {
+.rubin-news > .news-list--selected,
+.rubin-work > .rubin-section__header,
+.rubin-work > .project-list,
+.rubin-work > .all-publications {
   width: min(calc(100% - 30px), 790px);
+}
+
+.rubin-news > .rubin-section__header,
+.rubin-news > .news-list--selected,
+.rubin-work > .rubin-section__header,
+.rubin-work > .project-list {
   margin-right: auto;
   margin-left: auto;
+}
+
+.rubin-work > .all-publications {
+  margin-right: auto !important;
+  margin-left: auto !important;
 }
 
 .rubin-cv {
@@ -2082,7 +2096,10 @@ html[data-theme="dark"] .honors-strip {
   }
 
   .rubin-news > .rubin-section__header,
-  .rubin-news > .news-list--selected {
+  .rubin-news > .news-list--selected,
+  .rubin-work > .rubin-section__header,
+  .rubin-work > .project-list,
+  .rubin-work > .all-publications {
     width: 100%;
   }
 
