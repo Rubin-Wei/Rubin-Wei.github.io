@@ -21,6 +21,7 @@ My research centers on memory, pretraining, and novel architectures for large la
 I’m always open to discussions and collaborations — feel free to reach out if you’d like to chat!
 
 ## 🔥 <a id="news"></a>News
+- **2026.08** 🚀🚀 *Intern-S2-Preview* technical report released.
 - **2026.07** 🚀🚀 *Memory Decoder at Scale* released.
 - **2026.07** 🚀🚀 *MemSFT* released.
 - **2026.04** 💼 Started a research internship at **Shanghai AI Lab**.
@@ -33,6 +34,11 @@ I’m always open to discussions and collaborations — feel free to reach out i
 
 
 ## 📚 <a id="publications"></a>Publications
+
+-  **Intern-S2-Preview: Scientific Agentic Foundation Model**<br>
+   *Intern-S2-Preview Team, Shanghai AI Laboratory*<br>
+   _Technical Report, 2026_<br>
+   🔗 [arXiv](https://arxiv.org/abs/2608.13505)
 
 -  **Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory**<br>
    ***Rubin Wei**, Jiaqi Cao, Jiarui Wang, Junming Zhang, Qipeng Guo, Bowen Zhou, Zhouhan Lin*<br>
