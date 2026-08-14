@@ -1890,6 +1890,13 @@ html[data-theme="dark"] .honors-strip {
   background: var(--rubin-blue-dark);
 }
 
+.rubin-news > .rubin-section__header,
+.rubin-news > .news-list--selected {
+  width: min(calc(100% - 30px), 790px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .rubin-cv {
   scroll-margin-top: 74px;
 }
@@ -1984,7 +1991,7 @@ html[data-theme="dark"] .honors-strip {
 }
 
 .cv-entry__head strong {
-  color: var(--rubin-ink);
+  color: var(--rubin-author-emphasis);
   font-size: 0.74rem;
   font-weight: 700;
   line-height: 1.45;
@@ -2072,6 +2079,11 @@ html[data-theme="dark"] .honors-strip {
 @media screen and (max-width: 600px) {
   .rubin-links {
     margin-top: 0.4rem;
+  }
+
+  .rubin-news > .rubin-section__header,
+  .rubin-news > .news-list--selected {
+    width: 100%;
   }
 
   .research-section__subhead--publications {
