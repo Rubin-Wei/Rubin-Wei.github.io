@@ -1,89 +1,172 @@
 ---
 permalink: /
 title: "Rubin Wei"
-excerpt: "About Me"
-author_profile: true
-redirect_from: 
+excerpt: "Rubin Wei — Research Homepage"
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<!-- ## <a id="aboutme"></a>About Me -->
+<div class="rubin-home">
+  <section class="rubin-hero" id="about">
+    <aside class="rubin-profile" aria-label="Rubin Wei profile">
+      <div class="rubin-profile__portrait">
+        <img src="{{ '/images/profile.png' | relative_url }}" alt="Rubin Wei" width="360" height="360">
+        <span aria-hidden="true"></span>
+      </div>
+      <h1 class="rubin-profile__name">Rubin Wei</h1>
+      <p class="rubin-profile__caption">Ph.D. Student · SJTU</p>
+    </aside>
 
-I’m a first-year Ph.D student in Computer Science at the [School of Artificial Intelligence, Shanghai Jiao Tong University (SJTU)](https://soai.sjtu.edu.cn/), advised by Prof. [Zhouhan Lin](https://hantek.github.io/) in the [Language Understanding and Machine Intelligence Algorithms (LUMIA) Group](https://lumia-group.github.io/). Previously, I received my B.E. in Information Security from [Wuhan University](https://www.whu.edu.cn/).
+    <div class="rubin-hero__copy">
+      <p class="rubin-hero__lead">
+        I’m a first-year Ph.D student in Computer Science at the
+        <a href="https://soai.sjtu.edu.cn/">School of Artificial Intelligence, Shanghai Jiao Tong University (SJTU)</a>,
+        advised by Prof. <a href="https://hantek.github.io/">Zhouhan Lin</a> in the
+        <a href="https://github.com/LUMIA-Group">Language Understanding and Machine Intelligence Algorithms (LUMIA) Group</a>.
+        Previously, I received my B.E. in Information Security from <a href="https://www.whu.edu.cn/">Wuhan University</a>.
+      </p>
+      <p class="rubin-hero__research">
+        My research centers on <strong>memory, pretraining, and architectures</strong> for large language models and agents.
+      </p>
+    </div>
 
+    <div class="research-thread" aria-label="Research interests">
+      <article>
+        <div><strong>Long-Term Memory</strong><p>Training memory modules to internalize and retain knowledge from large-scale training corpora.</p></div>
+      </article>
+      <article>
+        <div><strong>Memory-Augmented Architectures</strong><p>Designing memory-augmented models and pretraining paradigms for efficient and adaptive knowledge access.</p></div>
+      </article>
+      <article>
+        <div><strong>Pretraining &amp; Model Architectures</strong><p>Advancing pretraining methods and model architectures for foundation models.</p></div>
+      </article>
+    </div>
 
-My research centers on memory, pretraining, and novel architectures for large language models and agents, with a focus on:
-- **Long-Term Memory:** Training memory modules to internalize and retain knowledge from large-scale training corpora.
-- **Memory-Augmented Architectures:** Designing memory-augmented models and pretraining paradigms for efficient and adaptive knowledge access.
-- **Pretraining and Model Architectures:** Developing scalable pretraining methods and new model architectures for more capable and efficient language models.
+    <div class="rubin-links" aria-label="Profiles and contact">
+      <a href="mailto:weirubinn@gmail.com" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+      <a href="https://scholar.google.com/citations?user=ryJdVf4AAAAJ&amp;hl=zh-CN" aria-label="Google Scholar" title="Google Scholar"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></a>
+      <a href="https://github.com/Rubin-Wei" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/rubin-wei-41122737b/" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/binnn1102" aria-label="X" title="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+    </div>
+  </section>
 
-I’m always open to discussions and collaborations — feel free to reach out if you’d like to chat!
+  <section class="rubin-section rubin-news" id="news">
+    <header class="rubin-section__header rubin-section__header--compact">
+      <h2>News</h2>
+    </header>
+    <div class="news-list news-list--selected">
+      <article class="news-list__opportunity"><time>Open</time><p>I am currently seeking <em>research internship opportunities</em> with <strong>foundation model teams</strong>, especially in pretraining.</p></article>
+      <article><time>2026.08</time><p><em>Intern-S2-Preview</em> technical report released.</p></article>
+      <article><time>2026.07</time><p><em>Memory Decoder at Scale</em> released.</p></article>
+      <article><time>2026.07</time><p><em>MemSFT</em> released.</p></article>
+      <article><time>2026.01</time><p><em>MLP Memory</em> accepted to <strong>ICLR 2026</strong>.</p></article>
+      <article><time>2025.09</time><p><em>Memory Decoder</em> accepted to <strong>NeurIPS 2025</strong>.</p></article>
+    </div>
+  </section>
 
-## 🔥 <a id="news"></a>News
-- **2026.08** 🚀🚀 *Intern-S2-Preview* technical report released.
-- **2026.07** 🚀🚀 *Memory Decoder at Scale* released.
-- **2026.07** 🚀🚀 *MemSFT* released.
-- **2026.04** 💼 Started a research internship at **Shanghai AI Lab**.
-- **2026.01** 🎉🎉 *MLP Memory* accepted to **ICLR 2026**  
-- **2025.10** 🚀🚀 *MLP Memory* released — model weights and code are now open-sourced.
-- **2025.09** 🎉🎉 *Memory Decoder* accepted to **NeurIPS 2025**  
-- **2025.06** 🏆🏆 My undergraduate thesis was selected as an *Outstanding Thesis*  
-- **2024.12** 🎉🎉 One paper accepted to **IEEE TIFS 2024**  
-- **2024.06** 🎉🎉 *Beowulf* accepted to **ACM CCS 2024**
+  <section class="rubin-section rubin-work" id="research">
+    <header class="rubin-section__header">
+      <h2>Selected Publications</h2>
+    </header>
 
+    <p class="all-publications">All publications on <a href="https://scholar.google.com/citations?user=ryJdVf4AAAAJ&amp;hl=en">Google Scholar</a>.</p>
 
-## 📚 <a id="publications"></a>Publications
+    <div class="project-list" id="publications">
+      <h3 class="publication-year">2026</h3>
+      <article class="project-card project-card--intern">
+        <a class="project-card__visual" href="https://arxiv.org/abs/2608.13505" aria-label="Read Intern-S2-Preview on arXiv">
+          <span class="project-card__badge project-card__badge--report">Technical Report · 2026</span>
+          <img src="{{ '/images/publications/intern-s2-memory.svg' | relative_url }}" alt="Memory Decoder extension architecture for Intern-S2-Preview-397B" loading="lazy">
+        </a>
+        <div class="project-card__copy">
+          <h3>Intern-S2-Preview: Scientific Agentic Foundation Model</h3>
+          <p class="project-card__authors">Intern-S2-Preview Team, Shanghai AI Laboratory</p>
+          <p class="project-card__venue">Technical Report, 2026</p>
+          <div class="project-card__links">
+            <a class="project-link project-link--paper" href="https://arxiv.org/abs/2608.13505">arXiv</a>
+            <a class="project-link project-link--hf" href="https://huggingface.co/internlm/Intern-S2-Preview">Hugging Face</a>
+          </div>
+        </div>
+      </article>
 
--  **Intern-S2-Preview: Scientific Agentic Foundation Model**<br>
-   *Intern-S2-Preview Team, Shanghai AI Laboratory*<br>
-   _Technical Report, 2026_<br>
-   🔗 [arXiv](https://arxiv.org/abs/2608.13505)
+      <article class="project-card project-card--scale">
+        <a class="project-card__visual" href="https://rubin-wei.github.io/memory-decoder-at-scale/" aria-label="Open the Memory Decoder at Scale project page">
+          <span class="project-card__badge project-card__badge--preprint">Preprint · 2026</span>
+          <img src="{{ '/images/publications/memory-decoder-scale-overview.png' | relative_url }}" alt="Training and inference overview for Memory Decoder at Scale" loading="lazy">
+        </a>
+        <div class="project-card__copy">
+          <h3>Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory</h3>
+          <p class="project-card__authors"><strong>Rubin Wei</strong>, Jiaqi Cao, Jiarui Wang, Junming Zhang, Qipeng Guo, Bowen Zhou, Zhouhan Lin</p>
+          <p class="project-card__venue">Preprint, 2026</p>
+          <div class="project-card__links">
+            <a class="project-link project-link--paper" href="https://arxiv.org/abs/2607.27919">arXiv</a>
+            <a class="project-link project-link--code" href="https://github.com/LUMIA-Group/MemoryDecoder-at-Scale">Code</a>
+            <a class="project-link project-link--hf" href="https://huggingface.co/collections/Rubin-Wei/memorydecoder-at-scale">Hugging Face</a>
+            <a class="project-link project-link--web" href="https://rubin-wei.github.io/memory-decoder-at-scale/">Webpage</a>
+          </div>
+        </div>
+      </article>
 
--  **Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory**<br>
-   ***Rubin Wei**, Jiaqi Cao, Jiarui Wang, Junming Zhang, Qipeng Guo, Bowen Zhou, Zhouhan Lin*<br>
-   _arXiv preprint, 2026_<br>
-   🔗 [arXiv](https://arxiv.org/abs/2607.27919) · [GitHub](https://github.com/LUMIA-Group/MemoryDecoder-at-Scale) · [HuggingFace](https://huggingface.co/collections/Rubin-Wei/memorydecoder-at-scale) · [Project Page](https://rubin-wei.github.io/memory-decoder-at-scale/)
+      <article class="project-card project-card--memsft">
+        <a class="project-card__visual" href="https://arxiv.org/abs/2607.25614" aria-label="Read MemSFT on arXiv">
+          <span class="project-card__badge project-card__badge--preprint">Preprint · 2026</span>
+          <img src="{{ '/images/publications/memsft-overview.svg' | relative_url }}" alt="Overview of the MemSFT architecture" loading="lazy">
+        </a>
+        <div class="project-card__copy">
+          <h3>MemSFT: Mitigating Alignment Tax with an External Parametric Memory</h3>
+          <p class="project-card__authors">Jiarui Wang*, Xiang Shi*, Jiaqi Cao, <strong>Rubin Wei</strong>, Xiquan Wang, Hao Sun, Jingzhi Wang, Zhiqi Yang, Qipeng Guo, Bowen Zhou, Zhouhan Lin</p>
+          <p class="project-card__venue">Preprint, 2026</p>
+          <div class="project-card__links">
+            <a class="project-link project-link--paper" href="https://arxiv.org/abs/2607.25614">arXiv</a>
+            <a class="project-link project-link--code" href="https://github.com/LUMIA-Group/MemSFT">Code</a>
+            <a class="project-link project-link--hf" href="https://huggingface.co/collections/Jiarui-Wang/memsft">Hugging Face</a>
+          </div>
+          <p class="project-card__note">* Equal Contribution</p>
+        </div>
+      </article>
 
--  **MemSFT: Mitigating Alignment Tax with an External Parametric Memory**<br>
-   *Jiarui Wang\*, Xiang Shi\*, Jiaqi Cao, **Rubin Wei**, Xiquan Wang, Hao Sun, Jingzhi Wang, Zhiqi Yang, Qipeng Guo, Bowen Zhou, Zhouhan Lin*<br>
-   _arXiv preprint, 2026_<br>
-   🔗 [arXiv](https://arxiv.org/abs/2607.25614) · [GitHub](https://github.com/LUMIA-Group/MemSFT) · [HuggingFace](https://huggingface.co/collections/Jiarui-Wang/memsft) · \* Equal Contribution
+      <article class="project-card project-card--mlp">
+        <a class="project-card__visual" href="https://arxiv.org/abs/2508.01832" aria-label="Read MLP Memory on arXiv">
+          <span class="project-card__badge project-card__badge--iclr">ICLR 2026</span>
+          <img src="{{ '/images/publications/mlp-memory-overview.png' | relative_url }}" alt="Overview of the MLP Memory architecture" loading="lazy">
+        </a>
+        <div class="project-card__copy">
+          <h3>MLP Memory: A Retriever-Pretrained Memory for Large Language Models</h3>
+          <p class="project-card__authors"><strong>Rubin Wei</strong>*, Jiaqi Cao*, Jiarui Wang, Jushi Kai, Qipeng Guo, Bowen Zhou, Zhouhan Lin</p>
+          <p class="project-card__venue">International Conference on Learning Representations (ICLR), 2026</p>
+          <div class="project-card__links">
+            <a class="project-link project-link--paper" href="https://arxiv.org/abs/2508.01832">arXiv</a>
+            <a class="project-link project-link--code" href="https://github.com/LUMIA-Group/MLPMemory">Code</a>
+            <a class="project-link project-link--hf" href="https://huggingface.co/collections/Rubin-Wei/mlpmemory">Hugging Face</a>
+          </div>
+          <p class="project-card__note">* Equal Contribution</p>
+        </div>
+      </article>
 
--  **MLP Memory: A Retriever-Pretrained Memory for Large Language Models**  
-   ***Rubin Wei**\*, Jiaqi Cao\*, Jiarui Wang, Jushi Kai, Qipeng Guo, Bowen Zhou, Zhouhan Lin*  
-   _ICLR 2026_  
-   🔗 [arXiv](https://arxiv.org/abs/2508.01832) · [GitHub](https://github.com/LUMIA-Group/MLPMemory) · [HuggingFace](https://huggingface.co/collections/Rubin-Wei/mlpmemory) · \* Equal Contribution
+      <h3 class="publication-year">2025</h3>
 
--  **Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models**  
-   *Jiaqi Cao\*, Jiarui Wang\*, **Rubin Wei**, Qipeng Guo, Kai Chen, Bowen Zhou, Zhouhan Lin*  
-   _NeurIPS 2025 Poster_  
-   🔗 [arXiv](https://arxiv.org/abs/2508.09874) · [GitHub](https://github.com/LUMIA-Group/MemoryDecoder) · [HuggingFace](https://huggingface.co/collections/Clover-Hill/memorydecoder) · \* Equal Contribution
+      <article class="project-card project-card--decoder">
+        <a class="project-card__visual" href="https://arxiv.org/abs/2508.09874" aria-label="Read Memory Decoder on arXiv">
+          <span class="project-card__badge project-card__badge--neurips">NeurIPS 2025</span>
+          <img src="{{ '/images/publications/memory-decoder-overview.png' | relative_url }}" alt="Overview of the Memory Decoder architecture" loading="lazy">
+        </a>
+        <div class="project-card__copy">
+          <h3>Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models</h3>
+          <p class="project-card__authors">Jiaqi Cao*, Jiarui Wang*, <strong>Rubin Wei</strong>, Qipeng Guo, Kai Chen, Bowen Zhou, Zhouhan Lin</p>
+          <p class="project-card__venue">Annual Conference on Neural Information Processing Systems (NeurIPS), 2025</p>
+          <div class="project-card__links">
+            <a class="project-link project-link--paper" href="https://arxiv.org/abs/2508.09874">arXiv</a>
+            <a class="project-link project-link--code" href="https://github.com/LUMIA-Group/MemoryDecoder">Code</a>
+            <a class="project-link project-link--hf" href="https://huggingface.co/collections/Clover-Hill/memorydecoder">Hugging Face</a>
+          </div>
+          <p class="project-card__note">* Equal Contribution</p>
+        </div>
+      </article>
+    </div>
 
--  **Beowulf: Mitigating Model Extraction Attacks via Reshaping Decision Regions**  
-   *Xueluan Gong, **Rubin Wei**, Ziyao Wang, Yuchen Sun, Jiawen Peng, Yanjiao Chen, Qian Wang*  
-   _ACM CCS 2024_  
-   🔗 [ACM CCS](https://dl.acm.org/doi/abs/10.1145/3658644.3670267)
+  </section>
 
-- **Augmenting Model Extraction Attacks Against Disruption-Based Defenses**  
-   *Xueluan Gong, Shuaike Li, Yanjiao Chen, Mingzhe Li, **Rubin Wei**, Qian Wang, Kwok-Yan Lam*  
-   _IEEE Transactions on Information Forensics & Security (TIFS) 2024_  
-   🔗 [IEEE TIFS](https://ieeexplore.ieee.org/abstract/document/10793405)
-
-## 🎓 <a id="education"></a>Education
-
-- *2025.09–Present*, Ph.D. Student, [School of Artificial Intelligence](https://soai.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/)
-- *2021.09–2025.06*, B.E. in Information Security,[ School of Cyber Science and Engineering](https://cse.whu.edu.cn/), [Wuhan University](https://www.whu.edu.cn/)
-
-
-## 💼 <a id="internships"></a>Internships
-
-- *2026.04–Present*, Research Intern, [Shanghai AI Lab](https://www.shlab.org.cn/), Shanghai, China
-- *2024.11–2025.02*, [TeleAI](https://www.teleai.com.cn/), Shanghai, China
-- *2024.04–2024.06*, [Shanghai AI Lab](https://www.shlab.org.cn/), Shanghai, China
-
-
-## 🏅 <a id="honors_and_awards"></a>Honors and Awards
-
-- National Scholarship, 2023
-- Outstanding Undergraduate Thesis Award, 2025
+</div>

@@ -1,5 +1,9 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Rubin Wei",
+	"short_name": "RW",
+	"theme_color": "#294f78",
+	"background_color": "#f4f8fc",
+	"display": "standalone",
 	"icons": [
 		{
 			"src": "/images/favicon-192x192.png",
