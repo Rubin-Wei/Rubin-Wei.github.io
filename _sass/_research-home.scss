@@ -108,6 +108,7 @@ html[data-theme="dark"] .masthead {
 
 .greedy-nav .visible-links li:first-child a {
   margin-left: 0;
+  padding-left: 0;
   color: var(--rubin-ink);
   font-family: var(--rubin-serif);
   font-size: 1.08rem;
@@ -1210,7 +1211,7 @@ html[data-theme="dark"] .honors-strip {
    ========================================================================== */
 
 .masthead__inner-wrap {
-  max-width: 940px;
+  max-width: calc(790px + 2rem);
 }
 
 .rubin-hero,
