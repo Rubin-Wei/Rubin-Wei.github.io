@@ -115,6 +115,10 @@ html[data-theme="dark"] .masthead {
   letter-spacing: -0.03em;
 }
 
+.masthead__brand-mark {
+  display: none;
+}
+
 .greedy-nav .visible-links a::before {
   bottom: 0.24rem;
   height: 1px;
@@ -1009,14 +1013,43 @@ html[data-theme="dark"] .honors-strip {
 
 @media screen and (max-width: 680px) {
   .masthead__inner-wrap {
-    padding-right: 0.7rem;
-    padding-left: 0.7rem;
+    padding: 0.5rem 0.45rem;
+  }
+
+  .masthead__menu-item--lg {
+    padding-right: 0.15rem;
+  }
+
+  .masthead__brand-text {
+    display: none;
+  }
+
+  .masthead__brand-mark {
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+  }
+
+  .greedy-nav {
+    min-width: 0;
   }
 
   .greedy-nav a {
-    margin: 0 0.12rem;
-    padding-right: 0.38rem;
-    padding-left: 0.38rem;
+    margin: 0;
+    padding: 0.38rem 0.28rem;
+    font-size: 0.72rem;
+    letter-spacing: 0;
+  }
+
+  .greedy-nav .visible-links li:first-child a {
+    padding: 0.18rem 0.22rem 0.18rem 0;
+  }
+
+  .greedy-nav .visible-links #theme-toggle a {
+    width: 22px;
+    padding-right: 0.18rem;
+    padding-left: 0.18rem;
   }
 
   .rubin-hero,
