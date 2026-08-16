@@ -45,7 +45,19 @@ redirect_from:
     </div>
 
     <div class="rubin-links" aria-label="Profiles and contact">
-      <a href="mailto:weirubinn@gmail.com" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+      <div class="rubin-email" data-email-contact>
+        <button class="rubin-email__trigger" type="button" aria-expanded="false" aria-controls="rubin-email-popover" aria-label="Email Rubin Wei at weirubinn@gmail.com" title="weirubinn@gmail.com">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        </button>
+        <div class="rubin-email__popover" id="rubin-email-popover" role="group" aria-label="Email options" hidden>
+          <span class="rubin-email__address">weirubinn@gmail.com</span>
+          <div class="rubin-email__actions">
+            <button class="rubin-email__action rubin-email__copy" type="button" data-email="weirubinn@gmail.com">Copy</button>
+            <button class="rubin-email__action rubin-email__send" type="button" data-email="weirubinn@gmail.com">Send Email</button>
+          </div>
+          <span class="sr-only rubin-email__status" role="status" aria-live="polite"></span>
+        </div>
+      </div>
       <a href="https://scholar.google.com/citations?user=ryJdVf4AAAAJ&amp;hl=zh-CN" aria-label="Google Scholar" title="Google Scholar"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></a>
       <a href="https://github.com/Rubin-Wei" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/rubin-wei-41122737b/" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>

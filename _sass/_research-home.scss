@@ -1833,11 +1833,13 @@ html[data-theme="dark"] .honors-strip {
   gap: 0.72rem;
 }
 
-.rubin-links a {
+.rubin-links a,
+.rubin-email__trigger {
   display: grid;
   width: 27px;
   height: 27px;
   min-height: 0;
+  margin: 0;
   padding: 0;
   place-items: center;
   border: 0;
@@ -1845,12 +1847,109 @@ html[data-theme="dark"] .honors-strip {
   color: var(--rubin-blue-dark);
   background: transparent;
   font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
-.rubin-links a:hover {
+.rubin-links a:hover,
+.rubin-email__trigger:hover,
+.rubin-email__trigger[aria-expanded="true"] {
   color: var(--rubin-blue);
   background: transparent;
   transform: translateY(-1px);
+}
+
+.rubin-email {
+  position: relative;
+  display: grid;
+  width: 27px;
+  height: 27px;
+  place-items: center;
+}
+
+.rubin-email__trigger:focus-visible,
+.rubin-email__action:focus-visible {
+  outline: 2px solid var(--rubin-blue);
+  outline-offset: 2px;
+}
+
+.rubin-email__popover {
+  position: absolute;
+  bottom: calc(100% + 0.72rem);
+  left: 50%;
+  z-index: 20;
+  display: block;
+  width: 260px;
+  max-width: calc(100vw - 2rem);
+  padding: 0.78rem;
+  border: 1px solid var(--rubin-line);
+  border-radius: 10px;
+  color: var(--rubin-ink);
+  background: var(--rubin-white);
+  box-shadow: var(--rubin-shadow);
+  text-align: left;
+  transform: translateX(-50%);
+}
+
+.rubin-email__popover[hidden] {
+  display: none;
+}
+
+.rubin-email__popover::after {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid var(--rubin-line);
+  border-bottom: 1px solid var(--rubin-line);
+  background: var(--rubin-white);
+  content: "";
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.rubin-email__address {
+  display: block;
+  color: var(--rubin-ink);
+  font-size: 0.76rem;
+  font-weight: 650;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.rubin-email__actions {
+  display: flex;
+  gap: 0.45rem;
+  margin-top: 0.62rem;
+}
+
+.rubin-email__action {
+  min-height: 30px;
+  margin: 0;
+  padding: 0.35rem 0.58rem;
+  border: 1px solid var(--rubin-line);
+  border-radius: 6px;
+  color: var(--rubin-blue-dark);
+  background: var(--rubin-blue-soft);
+  font-family: inherit;
+  font-size: 0.64rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.rubin-email__action:hover {
+  border-color: var(--rubin-blue);
+}
+
+.rubin-email__send {
+  border-color: var(--rubin-blue-dark);
+  color: var(--rubin-white);
+  background: var(--rubin-blue-dark);
 }
 
 .all-publications {
@@ -2144,6 +2243,15 @@ html[data-theme="dark"] .honors-strip {
 @media screen and (max-width: 600px) {
   .rubin-links {
     margin-top: 0.4rem;
+  }
+
+  .rubin-email__popover {
+    left: 0;
+    transform: none;
+  }
+
+  .rubin-email__popover::after {
+    left: 13px;
   }
 
   .rubin-news > .rubin-section__header,
