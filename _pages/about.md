@@ -50,6 +50,7 @@ redirect_from:
       <a href="https://github.com/Rubin-Wei" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/rubin-wei-41122737b/" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
       <a href="https://twitter.com/binnn1102" aria-label="X" title="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+      <a href="/images/wechat-qr.jpg" target="_blank" rel="noopener" aria-label="WeChat" title="WeChat"><i class="fa-brands fa-weixin" aria-hidden="true"></i></a>
     </div>
   </section>
 
